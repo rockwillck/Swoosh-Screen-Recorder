@@ -16,9 +16,9 @@ Install dependencies:
 Navigate to your cloned git repository and run the python script:  
 `python swoosh.py`  
 Enter your values:  
-`width` width of your screen recording
-`height` height of your screen recording
-`FPS Multipler` a modifier that alters the change of the recording
+`width` width of your screen recording  
+`height` height of your screen recording  
+`FPS Multipler` a modifier that alters the change of the recording  
 ## The Pitch
 This isn't the first mouse-tracking screen recorder, and it probably isn't the best.  
 But there's a reason I built SWOOSH: in all my searching, I've yet to find a cross-platform, FOSS alternative that does what I need.  
