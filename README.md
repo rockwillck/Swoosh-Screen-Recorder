@@ -1,5 +1,5 @@
 ![Swoosh Ouput](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3g2ZnRndTlrNXpjZ2JqYnVlcHh4Mjg2NWVrYXJsMmN1aDZ2Ym00YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lUXK1BUXPWt11YIO3i/200.gif)
-# SWOOSH
+# [SWOOSH](https://www.rockwill.dev/swoosh)
 A modern, lightweight mouse-tracking screen recorder
 - [SWOOSH](#swoosh)
   - [Installation](#installation)
