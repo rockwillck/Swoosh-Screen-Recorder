@@ -1,4 +1,4 @@
-![Swoosh Ouput](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHllaDh1b2lzOXM3c2cwZ2I4OXl6OGU5YjZ1eWNpbjMyYmoxc3N1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nrXjQEyguoXlVyRpHz/giphy.gif)
+![Swoosh Ouput](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3g2ZnRndTlrNXpjZ2JqYnVlcHh4Mjg2NWVrYXJsMmN1aDZ2Ym00YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lUXK1BUXPWt11YIO3i/200.gif)
 # SWOOSH
 A modern, lightweight mouse-tracking screen recorder
 - [SWOOSH](#swoosh)
@@ -18,6 +18,7 @@ Navigate to your cloned git repository and run the python script:
 Enter your values:  
 `width` width of your screen recording
 `height` height of your screen recording
+`FPS Multipler` a modifier that alters the change of the recording
 ## The Pitch
 This isn't the first mouse-tracking screen recorder, and it probably isn't the best.  
 But there's a reason I built SWOOSH: in all my searching, I've yet to find a cross-platform, FOSS alternative that does what I need.  

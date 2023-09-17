@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: slategray;
+	background-size: cover;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	translate:-50% -50%;
+	font-family: 'Rajdhani', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0;
+	box-sizing: border-box;
+	transition: 0.2s;
+	flex: 1;
+}
+a:hover {
+	background-color: white;
+	color: slategray;
+}
+
+h1 {
+	font-style: italic;
+	flex: 1;
+}
+
+img {
+	flex:1;
+	width: 100%;
+}

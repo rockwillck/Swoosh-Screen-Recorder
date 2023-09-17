@@ -36,8 +36,9 @@ def start():
 def stop():
     global recording
     recording = False
+    images = []
 
-def save(fileName):
+def save(fileName, fps):
     frame_one = images[0]
     frame_one.save(fileName, format="GIF", append_images=images,
-                save_all=True, loop=0)
+                save_all=True, loop=0, duration=round(len(images)*fps))
