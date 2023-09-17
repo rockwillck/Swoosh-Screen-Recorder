@@ -1,8 +1,5 @@
 import pyautogui
-from PIL import Image, ImageGrab, ImageDraw
-import numpy as np
-import cv2
-import time
+from PIL import ImageGrab
 
 def clamp(num, upper, lower):
     return num if num >= lower and num <= upper else lower if num <= upper else upper
