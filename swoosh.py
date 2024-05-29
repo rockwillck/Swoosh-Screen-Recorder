@@ -2,22 +2,22 @@ import tkinter as tk
 from tkinter import filedialog
 import threading
 
-import app
+import ss
 
 def save_to_file():
     filename = filedialog.asksaveasfilename(defaultextension=".gif", filetypes=[("GIF Files", "*.gif")])
     if filename:
-        app.save(filename, float(entry_num3.get()))
+        ss.save(filename, float(entry_num3.get()))
 
 calculation_thread = 0
 def start_calculation():
     global calculation_thread
     try:
-        app.setDimensions(round(int(entry_num1.get())/2), round(int(entry_num2.get())/2))
-        app.setSmoothing((101 - int(entry_num4.get()))/101)
+        ss.setDimensions(round(int(entry_num1.get())/2), round(int(entry_num2.get())/2))
+        ss.setSmoothing((101 - int(entry_num4.get()))/101)
         
         # Create a thread to run app.start()
-        calculation_thread = threading.Thread(target=app.start)
+        calculation_thread = threading.Thread(target=ss.start)
         calculation_thread.start()
         start_button.config(state=tk.DISABLED)
         stop_button.config(state=tk.NORMAL)
@@ -25,7 +25,7 @@ def start_calculation():
         tk.messagebox.showerror(title="Error", message="Invalid Input")
 
 def stop_calculation():
-    app.stop()
+    ss.stop()
     start_button.config(state=tk.NORMAL)
     stop_button.config(state=tk.DISABLED)
 
