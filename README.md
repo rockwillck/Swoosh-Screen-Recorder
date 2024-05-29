@@ -25,7 +25,10 @@ This isn't the first mouse-tracking screen recorder, and it probably isn't the b
 But there's a reason I built SWOOSH: in all my searching, I've yet to find a cross-platform, FOSS alternative that does what I need.  
 This isn't a screen recorder for everyone - SWOOSH is built for product presentations, which means anybody trying to stream gameplay or record for tech support is going to find it incredibly useless.
 SWOOSH is for me - and maybe, somewhere out there, for someone else too.
-
+## Support
+Supporting the development of SWOOSH is 100% optional, as it truly is just a tiny, open-source tool on the internet. Any support is very much appreciated.  
+  
+<a href="https://www.buymeacoffee.com/rockwill"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=rockwill&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 ## License
 Speaking of FOSS, SWOOSH is licensed under the Bok Choy General Software License. The full text of the license should be included below. If not, more information can be found at https://www.rockwill.dev/Bok-Choy-License/.
 ```
